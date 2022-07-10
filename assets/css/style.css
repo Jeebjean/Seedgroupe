@@ -1876,9 +1876,9 @@ footer {
   background-color: #fdb139;
 }
 .page-title-area {
-  background-image: url(../img/page-title-bg.jpg);
+  background-image: url(../photo/team2.jpeg);
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   position: relative;
   height: 500px;
@@ -1890,8 +1890,8 @@ footer {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #000;
-  opacity: 0.8;
+  background-color: #1d3d5d;
+  opacity: 0.7;
 }
 .page-title-area .title-item {
   position: relative;
