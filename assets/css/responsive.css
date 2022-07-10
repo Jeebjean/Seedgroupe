@@ -1074,11 +1074,12 @@
 @media only screen and (max-width:991px) {
     .mean-container .mean-bar {
         background-image: linear-gradient(90deg, #5fd4ff,  #002e6b);  
+        height: 75px;
     }
 
     .mobile-nav .logo {
-        top: 9px;
-        max-width: 6.5%;
+        top: 8px;
+        max-width: 45px;
     }
 
     .footer-logo{
@@ -1095,7 +1096,7 @@
     }
 
     .mean-container a.meanmenu-reveal span {
-        margin-top: 30px;
+        margin-top: 40px;
         position: relative;
         top: -10px
     }
@@ -1105,11 +1106,12 @@
     }
 
     .side-nav {
-        width: 25%;
+        width: 27%;
         font-size: 8px;
         position: absolute;
-        top: 12px;
-        right: 50px
+        top: 50%;
+        right: 60px;
+        transform: translateY(-50%);
     }
 
     .side-nav a {
@@ -1122,10 +1124,25 @@
     }
 }
 
+
+@media only screen and (min-width:280px) and (max-width:360px){
+   
+    .side-nav {
+        width: 35%;
+    }
+
+    .mobile-nav .logo {
+        top: 13px;
+        max-width: 12%;
+    }
+}
+
+
 @media only screen and (min-width:576px) and (max-width:676px) {
     .review-slider .review-item {
         padding: 30px 5px
     }
+    
 }
 
 @media(min-width:1300px) {
